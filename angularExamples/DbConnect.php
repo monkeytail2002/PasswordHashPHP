@@ -1,8 +1,8 @@
 <?php
-DEFINE ('DB_USER', 'in15009351');
-DEFINE ('DB_PASSWORD','15009351');
-DEFINE ('DB_HOST', 'localhost');
-DEFINE ('DB_NAME', 'in15009351');
+DEFINE ('DB_USER', '');
+DEFINE ('DB_PASSWORD','');
+DEFINE ('DB_HOST', '');
+DEFINE ('DB_NAME', '');
 @$DB = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 if (mysqli_connect_errno())
 {
